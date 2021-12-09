@@ -12,6 +12,7 @@ const App = () => {
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
         description="Kurkite, spręskite ir dalinkitės įvairiausiais testais, kontroliniais darbais ir klausimynais vienoje vietoje"
+        
       ></SearchBar>
     </div>
   );
