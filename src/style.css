@@ -9,6 +9,24 @@
 #logo-container {
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* Global END */
+
+/* Navigation CSS start */
+#navbar-container {
+  display: flex;
+}
+
+#navbar-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
 /* Navigation CSS END */
 
 /* SearchBar CSS START */
@@ -30,5 +48,7 @@
 }
 
 
+
+}
 
 /* TestBlock CSS END */

@@ -1,9 +1,12 @@
 const Navigation = (props) => {
   return (
-    <div id="logo-container">
-      <h1>Navigation</h1>
-
-      <img src={props.img} alt="logo" />
+    <div id="navbar-container">
+      <div id="navbar-logo-container">
+        <h1>{props.name}</h1>
+        <div id="navbar-logo-image-container">
+          <img src={props.img} alt="logo" />
+        </div>
+      </div>
     </div>
   );
 };
