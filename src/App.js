@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom";
 import SearchBar from "./components/SearchBar";
 import Navigation from "./components/Navigation";
-import logo from "./images/logo.png"
+import logo from "./images/logo.png";
+
 
 const App = () => {
   return (
