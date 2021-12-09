@@ -12,11 +12,12 @@ const App = () => {
       <Navigation img={logo} />
       <Navigation name="Testio" img={logo} />
 
+      {/* ---------------------Search Blokelis--------------------- */}
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
         description="Kurkite, spręskite ir dalinkitės įvairiausiais testais, kontroliniais darbais ir klausimynais vienoje vietoje"
-        
       ></SearchBar>
+      {/* ---------------------End Search Blokelis--------------------- */}
 
       {/* ---------------------Test Blokelis--------------------- */}
 
