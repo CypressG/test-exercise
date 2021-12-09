@@ -1,8 +1,10 @@
 const TestBlock = (props) => {
   return (
     <div className="testblock-container">
-      <h1>{props.title}</h1>
+      <h2>{props.title}</h2>
       <p>{props.description}</p>
+      <button>Spręsti</button>
+      <button>Daugiau</button>
     </div>
   );
 };

@@ -7,14 +7,22 @@ import TestBlock from "./components/TestBlock";
 const App = () => {
   return (
     <div>
+      {/* ---------------------Navigacija--------------------- */}
+
       <Navigation img={logo} />
 
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
         description="Kurkite, spręskite ir dalinkitės įvairiausiais testais, kontroliniais darbais ir klausimynais vienoje vietoje"
       ></SearchBar>
-      <TestBlock />
-      <TestBlock title="Gamtos pažinimo testas" description="Description" />
+
+      {/* ---------------------Test Blokelis--------------------- */}
+
+      <TestBlock
+        title="Gamtos pažinimo testas"
+        description="Šis testas apibrežia visą reikiama informaciją 
+        apie gamtos pažinimą ir viską kitką"
+      />
     </div>
   );
 };

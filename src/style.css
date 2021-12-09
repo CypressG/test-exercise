@@ -1,19 +1,13 @@
-.testblock-container {
-    background-color: red;
+/* Global START */
+* {
+    font-family: Montserrat;
 }
+/* Global END */
+
+
 /* Navigation CSS start */
 #logo-container {
-
 }
-
-
-
-
-
-
-
-
-
 
 /* Navigation CSS END */
 
@@ -22,5 +16,19 @@
 /* SearchBar CSS END */
 
 /* TestBlock CSS START */
+
+.testblock-container {
+  background-color: red;
+  width: 301px;
+  height: 311px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.testblock-container h2 {
+    
+}
+
+
 
 /* TestBlock CSS END */
