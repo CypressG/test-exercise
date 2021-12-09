@@ -7,7 +7,7 @@ import TestBlock from "./components/TestBlock";
 const App = () => {
   return (
     <div>
-      <Navigation img={logo} />
+      <Navigation name="Testio" img={logo} />
 
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
