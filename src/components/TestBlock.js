@@ -1,11 +1,23 @@
-// eslint-disable-next-line import/no-unresolved
 import photo from "../images/test_background.jpg";
-// eslint-disable-next-line import/no-unresolved
 import avatar from "../images/avatar.png";
 
 const TestBlock = (props) => {
   return (
     <div className="testblock-container">
+      <div className="testblock-labels-container ">
+        <div className="testblock-labels-question-container">
+          <i></i>
+          <h5>30</h5>
+        </div>
+        <div className="testblock-labels-question-container">
+          <i></i>
+          <h5>30</h5>
+        </div>
+        <div className="testblock-labels-question-container">
+          <i></i>
+          <h5>30</h5>
+        </div>
+      </div>
       <div className="testblock-image-container">
         <img src={photo} alt="hills" />
       </div>
