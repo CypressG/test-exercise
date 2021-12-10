@@ -7,7 +7,6 @@ import flag from "../images/flag.svg";
 const TestBlock = (props) => {
   return (
     <div className="testblock-container">
-      
       <div className="testblock-label-container">
         <div className="testblock-label-questionmark-container">
           <img src={questionmark} alt="questionmark" />
