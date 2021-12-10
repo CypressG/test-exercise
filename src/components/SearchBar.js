@@ -1,10 +1,11 @@
+
 const searchBar = (props) => {
   return (
     <div className="searchbar-container">
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       <div id="searchbar-input-container">
-        <input id="search" placeholder="Paieška">
+        <input id="search" style="{'background-image': 'url(' + require('../images/searchIcon.svg') + ')'}" placeholder="Paieška">
           {props.bar}
         </input>
       </div>
