@@ -22,6 +22,41 @@ const App = () => {
 
       <div className="container-test-block">
         <TestBlock
+          time="30"
+          progress="30"
+          questions="30"
+          username="Vardenis Pavardenis"
+          title="Gamtos pažinimo testas"
+          description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
+        />
+        <TestBlock
+          time="30"
+          progress="30"
+          questions="30"
+          username="Vardenis Pavardenis"
+          title="Gamtos pažinimo testas"
+          description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
+        />
+        <TestBlock
+          time="30"
+          progress="30"
+          questions="30"
+          username="Vardenis Pavardenis"
+          title="Gamtos pažinimo testas"
+          description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
+        />
+        <TestBlock
+          time="30"
+          progress="30"
+          questions="30"
+          username="Vardenis Pavardenis"
+          title="Gamtos pažinimo testas"
+          description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
+        />
+        <TestBlock
+          time="30"
+          progress="30"
+          questions="30"
           username="Vardenis Pavardenis"
           title="Gamtos pažinimo testas"
           description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
