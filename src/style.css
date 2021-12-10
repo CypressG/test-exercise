@@ -83,7 +83,7 @@ h5 {
   border: 0;
   height: 100%;
   width: 100%;
-  background-image: url();
+  background-image: url("public/searchIcon.svg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: 20px;
