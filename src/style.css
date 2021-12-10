@@ -34,7 +34,7 @@ h5 {
 #navbar-container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 #navbar-menu-items-container {
@@ -44,12 +44,12 @@ h5 {
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
-  flex-basis: 30%;
+  flex-basis: 25%;
   list-style: none;
 }
 #navbar-menu-items-container li {
   font-weight: 400;
-  padding: 20px;
+  padding: 20px 0;
 }
 #navbar-menu-items-container li:hover {
   border-bottom: 2px solid #22b573;
