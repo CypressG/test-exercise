@@ -103,14 +103,36 @@ h5 {
 /* ------------------------------SearchBar CSS END------------------------------ */
 
 /* ------------------------------TestBlock CSS START------------------------------ */
-
+html {
+  margin: auto;
+}
 /*main konteineris*/
 .container-test-block {
   display: grid;
-  grid-template: repeat(4, 24%) / repeat(4, 23%);
-  gap: 2%;
-  width: 100%;
+  grid-template: repeat(1, 300px) / repeat(1, 100%);
+  row-gap: 1%;
   grid-auto-flow: row;
+  justify-content: center;
+}
+
+@media (min-width: 560px) {
+  .container-test-block {
+    display: grid;
+    grid-template: repeat(1, 300px) / repeat(2, 48%);
+    gap: 2%;
+    width: 100%;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-test-block {
+    display: grid;
+    grid-template: repeat(1, 300px) / repeat(4, 23%);
+    gap: 2%;
+    width: 100%;
+    grid-auto-flow: row;
+  }
 }
 
 .testblock-container {
@@ -192,7 +214,7 @@ h5 {
   justify-content: center;
   align-items: center;
 }
-
+/* Testblock Image container START*/
 .testblock-image-container {
   width: 100%;
 }
@@ -224,6 +246,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+/* Testblock Image container END */
 
 .testblock-label-container {
   width: 60%;
