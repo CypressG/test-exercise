@@ -115,7 +115,7 @@ html {
   justify-content: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 576px) {
   .container-test-block {
     display: grid;
     grid-template: repeat(1, 300px) / repeat(2, 48%);
@@ -125,7 +125,17 @@ html {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
+  .container-test-block {
+    display: grid;
+    grid-template: repeat(1, 300px) / repeat(3, 32%);
+    gap: 2%;
+    width: 100%;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 1200px) {
   .container-test-block {
     display: grid;
     grid-template: repeat(1, 300px) / repeat(4, 23%);
