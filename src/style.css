@@ -25,27 +25,55 @@ h5 {
 .red {
   background-color: red;
 }
+.green {
+  background-color: green;
+}
 /* ------------------------------Global END------------------------------ */
 
 /* ------------------------------Navigation CSS start------------------------------ */
 #navbar-container {
   display: flex;
-  width: 95%;
+  justify-content: space-between;
+  width: 90%;
   margin: auto;
-  background-color: red;
+}
+#navbar-menu-items-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  flex-basis: 30%;
+  list-style: none;
+}
+#navbar-menu-items-container li {
+  font-weight: 400;
+  padding: 20px;
+}
+#navbar-menu-items-container li:hover {
+  border-bottom: 2px solid #22b573;
+  padding-bottom: 18px;
+}
+#navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 80%;
+  align-items: center;
 }
 
 #navbar-logo-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row-reverse;
 }
-#navbar-logo-container h1 {
+#navbar-menu-avatar-container {
+  display: flex;
+  gap: 5px;
 }
-#navbar-logo-image-container {
+#navbar-menu-avatar-container h5 {
+  color: #22b573;
 }
-
 /* ------------------------------Navigation CSS END------------------------------ */
 
 /* ------------------------------SearchBar CSS START------------------------------ */

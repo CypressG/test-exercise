@@ -9,7 +9,7 @@ const App = () => {
     <div>
       {/* ---------------------Navigacija--------------------- */}
 
-      <Navigation name="Testio" img={logo} />
+      <Navigation name="Testio" img={logo} user="Petras" />
 
       {/* ---------------------Search Blokelis--------------------- */}
       <SearchBar
