@@ -10,7 +10,21 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+:root {
+}
 
+button {
+  border: none;
+}
+
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.red {
+  background-color: red;
+}
 /* ------------------------------Global END------------------------------ */
 
 /* ------------------------------Navigation CSS start------------------------------ */
@@ -92,24 +106,35 @@
 
 /*main konteineris*/
 .container-test-block {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template: repeat(4, 24%) / repeat(4, 23%);
+  gap: 2%;
+  width: 100%;
+  grid-auto-flow: row;
 }
 
 .testblock-container {
-  flex-basis: 35%;
-
+  grid-row: span 2;
+  flex-basis: 25%;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
     0px 4px 16px rgba(51, 51, 51, 0.08);
+  position: relative;
+}
+
+.testblock-container h5 {
+  color: white;
+  font-size: 12px;
+  margin: 0;
 }
 
 .testblock-container h2 {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  letter-spacing: 0.02em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .testblock-container p {
@@ -121,8 +146,8 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin-bottom: 15px;
   opacity: 0.5;
+  font-weight: 400;
 }
 
 .testblock-button-container {
@@ -131,10 +156,9 @@
   justify-content: space-between;
   margin: auto;
   width: 80%;
-  margin-bottom: 15px;
 }
 
-#main-button {
+.main-button {
   width: 112px;
   height: 37px;
   left: 22px;
@@ -143,6 +167,7 @@
   background: #22b573;
   border-color: #22b573;
   border-radius: 4px;
+  border: 0;
   color: white;
 
   display: flex;
@@ -151,7 +176,7 @@
   align-items: center;
 }
 
-#extra-button {
+.extra-button {
   width: 112px;
   height: 37px;
   left: 156px;
@@ -180,17 +205,55 @@
 
 .testblock-image-container-avatar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 5%;
   width: 70%;
+  position: absolute;
+  top: 100px;
+  left: 5%;
 }
 
 .testblock-image-container-avatar img {
-  width: 44px;
+  flex-basis: 20%;
   height: auto;
 }
 .testblock-image-container-avatar h3 {
+  flex-basis: 80%;
   font-size: 12px;
-  color: red;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.testblock-label-container {
+  width: 60%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+
+.testblock-label-container div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 0%;
+  border-radius: 0px 0px 5px 5px;
+  flex-basis: 25%;
+}
+
+.testblock-label-questionmark-container {
+  background-color: #22b573;
+}
+
+.testblock-label-time-container {
+  background-color: #807182;
+}
+
+.testblock-label-flag-container {
+  background-color: #f7d002;
 }
 
 /* ------------------------------TestBlock CSS END------------------------------ */
