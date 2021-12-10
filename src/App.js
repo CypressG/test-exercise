@@ -9,22 +9,22 @@ const App = () => {
     <div>
       {/* ---------------------Navigacija--------------------- */}
 
-      <Navigation img={logo} />
       <Navigation name="Testio" img={logo} />
 
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
         description="Kurkite, spręskite ir dalinkitės įvairiausiais testais, kontroliniais darbais ir klausimynais vienoje vietoje"
-        
       ></SearchBar>
 
       {/* ---------------------Test Blokelis--------------------- */}
 
-      <TestBlock
-        title="Gamtos pažinimo testas"
-        description="Šis testas apibrežia visą reikiama informaciją 
-        apie gamtos pažinimą ir viską kitką"
-      />
+      <div className="container-test-block">
+        <TestBlock
+          username="Vardenis Pavardenis"
+          title="Gamtos pažinimo testas"
+          description="Šis testas apibrežia visą reikiamą informaciją apie gamtos pažinimą ir viską kitką"
+        />
+      </div>
     </div>
   );
 };

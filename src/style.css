@@ -1,13 +1,19 @@
-/* Global START */
+/* Mūsų visos naudojamos spalvos
+#22B573 - žalia
+#FFFFFF - balta 
+#807182 - pilka*/
+
+/* ------------------------------Global START------------------------------ */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-/* Global END */
 
-/* Navigation CSS start */
+/* ------------------------------Global END------------------------------ */
+
+/* ------------------------------Navigation CSS start------------------------------ */
 #navbar-container {
   display: flex;
 }
@@ -18,23 +24,115 @@
   align-items: baseline;
 }
 
-/* Navigation CSS END */
+/* ------------------------------Navigation CSS END------------------------------ */
 
-/* SearchBar CSS START */
+/* ------------------------------SearchBar CSS START------------------------------ */
 
-/* SearchBar CSS END */
+/* ------------------------------SearchBar CSS END------------------------------ */
 
-/* TestBlock CSS START */
+/* ------------------------------TestBlock CSS START------------------------------ */
+
+/*main konteineris*/
+.container-test-block {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .testblock-container {
-  background-color: red;
-  width: 301px;
-  height: 311px;
+  flex-basis: 35%;
+
   border-radius: 8px;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
 }
 
 .testblock-container h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.02em;
 }
 
-/* TestBlock CSS END */
+.testblock-container p {
+  width: 80%;
+  margin: auto;
+
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.testblock-button-container {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+#main-button {
+  width: 112px;
+  height: 37px;
+  left: 22px;
+  top: 259px;
+
+  background: #22b573;
+  border-color: #22b573;
+  border-radius: 4px;
+  color: white;
+
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#extra-button {
+  width: 112px;
+  height: 37px;
+  left: 156px;
+  top: 259px;
+
+  background: #ffffff;
+  border: 1px solid #22b573;
+  border-radius: 4px;
+  color: #22b573;
+
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.testblock-image-container {
+  width: 100%;
+}
+
+.testblock-image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.testblock-image-container-avatar {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.testblock-image-container-avatar img {
+  width: 44px;
+  height: auto;
+}
+.testblock-image-container-avatar h3 {
+  font-size: 12px;
+  color: red;
+}
+
+/* ------------------------------TestBlock CSS END------------------------------ */
