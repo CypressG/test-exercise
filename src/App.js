@@ -9,13 +9,11 @@ const App = () => {
     <div>
       {/* ---------------------Navigacija--------------------- */}
 
-      <Navigation img={logo} />
       <Navigation name="Testio" img={logo} />
 
       <SearchBar
         title="Testų kūrimo ir spendimo sistema"
         description="Kurkite, spręskite ir dalinkitės įvairiausiais testais, kontroliniais darbais ir klausimynais vienoje vietoje"
-        
       ></SearchBar>
 
       {/* ---------------------Test Blokelis--------------------- */}

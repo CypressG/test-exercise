@@ -10,12 +10,20 @@
 /* Navigation CSS start */
 #navbar-container {
   display: flex;
+  width: 95%;
+  margin: auto;
+  background-color: red;
 }
 
 #navbar-logo-container {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
+  flex-flow: row-reverse;
+}
+#navbar-logo-container h1 {
+}
+#navbar-logo-image-container {
 }
 
 /* Navigation CSS END */
