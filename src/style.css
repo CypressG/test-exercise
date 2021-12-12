@@ -216,6 +216,12 @@ h5 {
 html {
   margin: auto;
 }
+
+/* Added info */
+.testblock-bottom-container {
+  position: relative;
+}
+
 /*main konteineris*/
 .container-test-block {
   display: grid;
@@ -300,6 +306,7 @@ html {
   justify-content: space-between;
   margin: auto;
   width: 80%;
+  padding: 10px 10px 20px 10px;
 }
 
 .main-button {
@@ -350,11 +357,12 @@ html {
 .testblock-image-container-avatar {
   display: flex;
   justify-content: flex-start;
-  gap: 5%;
+  gap: 2%;
   width: 70%;
   position: absolute;
-  top: 100px;
-  left: 5%;
+  bottom: 105%;
+  left: 1%;
+  align-items: center;
 }
 
 .testblock-image-container-avatar img {
@@ -364,6 +372,7 @@ html {
 .testblock-image-container-avatar h3 {
   flex-basis: 80%;
   font-size: 12px;
+  text-align: left;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
