@@ -25,15 +25,19 @@ const TestBlock = (props) => {
       <div className="testblock-image-container">
         <img src={photo} alt="hills" />
       </div>
-      <div className="testblock-image-container-avatar">
-        <img src={avatar} alt="avatar" />
-        <h3>{props.username}</h3>
-      </div>
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
-      <div className="testblock-button-container">
-        <button className="main-button">Spręsti</button>
-        <button className="extra-button">Daugiau</button>
+
+      <div className="testblock-bottom-container">
+        <div className="testblock-image-container-avatar">
+          <img src={avatar} alt="avatar" />
+          <h3>{props.username}</h3>
+        </div>
+
+        <h2>{props.title}</h2>
+        <p>{props.description}</p>
+        <div className="testblock-button-container">
+          <button className="main-button">Spręsti</button>
+          <button className="extra-button">Daugiau</button>
+        </div>
       </div>
     </div>
   );
