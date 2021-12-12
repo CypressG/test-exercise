@@ -25,7 +25,6 @@ const TestBlock = (props) => {
       <div className="testblock-image-container">
         <img src={photo} alt="hills" />
       </div>
-
       <div className="testblock-bottom-container">
         <div className="testblock-image-container-avatar">
           <img src={avatar} alt="avatar" />

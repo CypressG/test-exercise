@@ -216,6 +216,12 @@ h5 {
 html {
   margin: auto;
 }
+
+/* Added info */
+.testblock-bottom-container {
+  position: relative;
+}
+
 /*main konteineris*/
 .container-test-block {
   display: grid;
@@ -380,6 +386,7 @@ html {
 .testblock-image-container-avatar h3 {
   flex-basis: 65%;
   font-size: 12px;
+  text-align: left;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
